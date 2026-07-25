@@ -10,19 +10,19 @@ importers:
     dependencies:
       framer-motion:
         specifier: ^12.34.0
-        version: 12.34.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 12.34.0(react-dom@19.2.4(react@19.2.8))(react@19.2.8)
       lucide-react:
         specifier: ^0.563.0
-        version: 0.563.0(react@19.2.4)
+        version: 0.563.0(react@19.2.8)
       react:
-        specifier: ^19.2.4
-        version: 19.2.4
+        specifier: ^19.2.8
+        version: 19.2.8
       react-dom:
         specifier: ^19.2.4
-        version: 19.2.4(react@19.2.4)
+        version: 19.2.4(react@19.2.8)
       react-icons:
         specifier: ^5.5.0
-        version: 5.5.0(react@19.2.4)
+        version: 5.5.0(react@19.2.8)
     devDependencies:
       '@types/node':
         specifier: ^22.14.0
@@ -645,8 +645,8 @@ packages:
     resolution: {integrity: sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw==}
     engines: {node: '>=0.10.0'}
 
-  react@19.2.4:
-    resolution: {integrity: sha512-9nfp2hYpCwOjAN+8TZFGhtWEwgvWHXqESH8qT89AT/lWklpLON22Lc8pEtnpsZz7VmawabSU0gCjnj8aC0euHQ==}
+  react@19.2.8:
+    resolution: {integrity: sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==}
     engines: {node: '>=0.10.0'}
 
   rollup@4.57.1:
@@ -1230,14 +1230,14 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.3
 
-  framer-motion@12.34.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
+  framer-motion@12.34.0(react-dom@19.2.4(react@19.2.8))(react@19.2.8):
     dependencies:
       motion-dom: 12.34.0
       motion-utils: 12.29.2
       tslib: 2.8.1
     optionalDependencies:
-      react: 19.2.4
-      react-dom: 19.2.4(react@19.2.4)
+      react: 19.2.8
+      react-dom: 19.2.4(react@19.2.8)
 
   fsevents@2.3.3:
     optional: true
@@ -1254,9 +1254,9 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  lucide-react@0.563.0(react@19.2.4):
+  lucide-react@0.563.0(react@19.2.8):
     dependencies:
-      react: 19.2.4
+      react: 19.2.8
 
   magic-string@0.30.21:
     dependencies:
@@ -1288,18 +1288,18 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  react-dom@19.2.4(react@19.2.4):
+  react-dom@19.2.4(react@19.2.8):
     dependencies:
-      react: 19.2.4
+      react: 19.2.8
       scheduler: 0.27.0
 
-  react-icons@5.5.0(react@19.2.4):
+  react-icons@5.5.0(react@19.2.8):
     dependencies:
-      react: 19.2.4
+      react: 19.2.8
 
   react-refresh@0.18.0: {}
 
-  react@19.2.4: {}
+  react@19.2.8: {}
 
   rollup@4.57.1:
     dependencies:
